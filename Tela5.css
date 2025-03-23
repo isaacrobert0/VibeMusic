@@ -1,0 +1,39 @@
+
+.Playlists {
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin-top: 10%;
+    min-height: 100vh;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    height: 100%;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    background-image: linear-gradient(#DA5738, #FC9942);
+    background-size: cover;
+    flex-grow: 1;
+    min-height: 100vh;
+    padding: 0;
+    margin: 0;
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
+}
+
+  .seta-esquerda {
+    width: 50px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px;
+    cursor: pointer;
+  }
+
+  .logo {
+    margin-top: 20px;
+    height: 200px;
+  }
